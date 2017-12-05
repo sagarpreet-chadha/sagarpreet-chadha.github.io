@@ -1,0 +1,561 @@
+$screen-sm-min: 860px;
+$screen-md-min: 992px;
+$screen-lg-min: 1200px;
+
+@mixin breakpoint($point) {
+  @if $point == $screen-sm-min {
+    @media screen and (min-width: $screen-sm-min) { @content; }
+  }
+  @elseif $point == $screen-md-min {
+    @media screen and (min-width: $screen-md-min) { @content; }
+  }
+  @elseif $point == $screen-lg-min {
+    @media screen and (min-width: $screen-lg-min) { @content; }
+  }
+}
+
+
+body {
+	position: relative;
+	margin: 0;
+	overflow: hidden;
+}
+
+.intro-container {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
+
+h1 {
+	font-family: 'brandon-grotesque', sans-serif;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0;
+	font-size: 20px;
+
+	@include breakpoint($screen-sm-min){
+		font-size: 40px;
+		line-height: 52px;
+	}
+}
+
+.fancy-text {
+	font-family: "adobe-garamond-pro",sans-serif;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-bottom: 17px;
+}
+
+.button {
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'brandon-grotesque', sans-serif;
+	text-transform: uppercase;
+	min-width: 200px;
+	margin-top: 30px;
+
+	&:hover {
+		.border {
+			box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+			.left-plane, .right-plane {
+				transform: translateX(0%);
+			}
+		}
+
+		.text {
+			color: #121212;
+		}
+	}
+
+	.border {
+		border: 1px solid white;
+		transform: skewX(-20deg);
+		height: 32px;
+		border-radius: 3px;
+		overflow: hidden;
+		position: relative;
+		transition: .10s ease-out;
+
+		.left-plane, .right-plane {
+			position: absolute;
+			background: white;
+			height: 32px;
+			width: 100px;
+			transition: .15s ease-out;
+		}
+
+		.left-plane {
+			left: 0;
+			transform: translateX(-100%);
+		}
+
+		.right-plane {
+			right: 0;
+			transform: translateX(100%);
+		}
+	}
+
+	.text {
+		border: 2px solid white;
+        padding: 7px;
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 50%;
+		transform: translateY(-50%);
+		transition: .15s ease-out;
+	}
+}
+
+.x-mark {
+	right: 10px;
+	top: 10px;
+	position: absolute;
+	cursor: pointer;
+	opacity: 0;
+	
+	:hover {
+		.right {
+			transform: rotate(-45deg) scaleY(1.2);
+		}
+
+		.left {
+			transform: rotate(45deg) scaleY(1.2);
+		}
+	}
+
+	.container {
+		position: relative;
+		width: 20px;
+		height: 20px;
+	}
+
+	.left, .right {
+		width: 2px;
+		height: 20px;
+		background: white;
+		position: absolute;
+		border-radius: 3px;
+		transition: .15s ease-out;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+	}
+
+	.right {
+		transform: rotate(-45deg);
+	}
+
+	.left {
+		transform: rotate(45deg);
+	}
+}
+
+.sky-container {
+	position: absolute;
+	color: white;
+	text-transform: uppercase;
+	margin: 0 auto;
+	left: 30%;
+	top: 10%;
+	
+	opacity: 0;
+	@include breakpoint($screen-sm-min){
+		top: 18%;
+		right: 12%;
+		left: auto;
+	}
+
+	&__left, &__right {
+		display: inline-block;	
+		vertical-align: top;
+		font-weight: bold;
+
+		h2 {
+			font-family: 'brandon-grotesque', sans-serif;
+			font-size: 26px;
+			line-height: 26px;
+			margin: 0;
+			@include breakpoint($screen-sm-min){
+				font-size: 72px;
+				line-height: 68px;
+			}
+		}
+		
+	}
+
+	&__left {
+		margin-right: 5px;
+	}
+
+	.thirty-one {
+		letter-spacing: 4px;
+	}
+
+}
+
+.text-right {
+	text-align: right;	
+}
+
+.text-left {
+	text-align: left;
+}
+
+
+
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+
+  animation: 
+    typing 5s steps(40, end),
+    blink-caret .75s step-end infinite;
+   -webkit-animation-delay: 2s; /* Safari 4.0 - 8.0 */
+   animation-delay: 2s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+div.borderYtoX a:before, div.borderYtoX a:after
+{
+    position: absolute;
+    opacity: 0.5;
+    height: 100%;
+    width: 2px;
+    content: '';
+    background: orange ;
+    transition: all 0.3s;
+}
+
+div.borderYtoX a:before
+{
+    left: 0px;
+    top: 0px;
+}
+
+div.borderYtoX a:after
+{
+    right: 0px;
+    bottom: 0px;
+}
+
+div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
+{
+    opacity: 1;
+    height: 2px;
+    width: 100%;
+}
+
+div.container
+{
+    font-family: Raleway;
+    margin: 0 auto;
+	padding: 10em 3em;
+	text-align: center;
+	margin-top: -21%;
+    margin-left: -19%;
+}
+
+div.container a
+{
+    color: orange ;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
+
+.wrap {
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  right: 10%;
+  bottom: 85px;
+  left: 10%;
+  padding: 20px 50px;
+  display: block;
+  border-radius: 4px;
+  transform: translateY(20px);
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.wrap .content {
+  opacity: 0;
+}
+.wrap:before {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  content: "";
+  bottom: 10px;
+  left: 50%;
+  top: 95%;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap.active {
+  display: block;
+  visibility: visible;
+  box-shadow: 2px 3px 16px silver;
+  transition: all 600ms;
+  transform: translateY(0px);
+  transition: all 0.5s;
+      margin-top: 14%;
+    height: 96%;
+    margin-right: 40%;
+}
+.wrap.active:before {
+  height: 2000px;
+  width: 2000px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -1000px;
+  margin-top: -1000px;
+  display: block;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap.active .content {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+a.button {
+  
+}
+a.button:hover {
+  text-decoration: none;
+  
+}
+a.button.active {
+
+ 
+}
+
+
+.wrap1 {
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  right: 10%;
+  bottom: 85px;
+  left: 10%;
+  padding: 20px 50px;
+  display: block;
+  border-radius: 4px;
+  transform: translateY(20px);
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.wrap1 .content1 {
+  opacity: 0;
+}
+.wrap1:before {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  content: "";
+  bottom: 10px;
+  left: 50%;
+  top: 95%;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap1.active {
+  display: block;
+  visibility: visible;
+  box-shadow: 2px 3px 16px silver;
+  transition: all 600ms;
+  transform: translateY(0px);
+  transition: all 0.5s;
+      margin-top: 10%;
+    height: 156%;
+    width: 52%;
+    margin-right: 40%;
+}
+.wrap1.active:before {
+  height: 2000px;
+  width: 2000px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -1000px;
+  margin-top: -1000px;
+  display: block;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap1.active .content1 {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+
+
+
+.wrap2 {
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  right: 10%;
+  bottom: 85px;
+  left: 10%;
+  padding: 20px 50px;
+  display: block;
+  border-radius: 4px;
+  transform: translateY(20px);
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.wrap2 .content2 {
+  opacity: 0;
+}
+.wrap2:before {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  content: "";
+  bottom: 10px;
+  left: 50%;
+  top: 95%;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap2.active {
+  display: block;
+  visibility: visible;
+  box-shadow: 2px 3px 16px silver;
+  transition: all 600ms;
+  transform: translateY(0px);
+  transition: all 0.5s;
+      margin-top: 10%;
+   height: 241%;
+    width: 58%;
+    margin-left: -8%;
+    margin-right: 40%;
+    overflow: scroll;
+}
+.wrap2.active:before {
+  height: 2000px;
+  width: 2000px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -1000px;
+  margin-top: -1000px;
+  display: block;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap2.active .content2 {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+
+
+.wrap3 {
+  position: absolute;
+  overflow: hidden;
+  top: 10%;
+  right: 10%;
+  bottom: 85px;
+  left: 10%;
+  padding: 20px 50px;
+  display: block;
+  border-radius: 4px;
+  transform: translateY(20px);
+  transition: all 0.5s;
+  visibility: hidden;
+}
+.wrap3 .content3 {
+  opacity: 0;
+}
+.wrap3:before {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  background: white;
+  content: "";
+  bottom: 10px;
+  left: 50%;
+  top: 95%;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap3.active {
+  display: block;
+  visibility: visible;
+  box-shadow: 2px 3px 16px silver;
+  transition: all 600ms;
+  transform: translateY(0px);
+  transition: all 0.5s;
+      margin-top: 8%;
+    height: 267%;
+    width: 76%;
+        margin-left: -13%;
+    margin-right: 40%;
+}
+.wrap3.active:before {
+  height: 2000px;
+  width: 2000px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  margin-left: -1000px;
+  margin-top: -1000px;
+  display: block;
+  -webkit-transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition: all 600ms cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.wrap3.active .content3 {
+  position: relative;
+  z-index: 1;
+  opacity: 1;
+  transition: all 600ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
