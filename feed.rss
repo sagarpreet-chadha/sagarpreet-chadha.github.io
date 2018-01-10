@@ -19,7 +19,7 @@ Open source environmental science research at Public Lab
 <link>
 https://publiclab.org/notes/cutlan/01-09-2018/kilimanjaro-citizen-science-1
 </link>
-<enclosure url="https://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
 <description>
 item1
 </description>
@@ -32,7 +32,7 @@ item1
 <link>
 https://publiclab.org/notes/Swede2/01-07-2018/built-the-entry-level-paperkit
 </link>
-<enclosure url="https://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
 <description>
 item2
 </description>
@@ -45,7 +45,7 @@ item2
 <link>
 https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
 </link>
-<enclosure url="https://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
 <description>
 item3
 </description>
@@ -58,11 +58,24 @@ item3
 <link>
 https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
 </link>
-<enclosure url="https://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
 <description>
 item4
 </description>
 <guid>https://publiclab.org/notes/show/15459</guid>
+</item>
+  <item>
+<title> Testing </title>
+<author>gilbert@gmail.com (test name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="1" type="image/jpeg" />
+<description>
+item5
+</description>
+<guid>https://publiclab.org/notes/show/154529</guid>
 </item>
 </channel>
 </rss>
