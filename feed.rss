@@ -77,5 +77,21 @@ item5
 </description>
 <guid>https://publiclab.org/notes/show/154529</guid>
 </item>
+   <item>
+<title> Testing </title>
+<author>gilbert@gmail.com (test name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="1" type="image/jpeg" />
+<description>
+<![CDATA[
+  Image inside RSS
+  <img src="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" alt="Smiley face">         
+]>
+</description>
+<guid>https://publiclab.org/notes/show/1548529</guid>
+</item>
 </channel>
 </rss>
