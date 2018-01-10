@@ -7,7 +7,7 @@ Open source environmental science research at Public Lab
 <link>https://sagarpreet-chadha.github.io/feed.rss</link>
 <atom:link href="https://sagarpreet-chadha.github.io/feed.rss" rel="self" type="application/rss+xml" />
 <image>
-  <url>https://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg</url>
+  <url>http://www.personal.psu.edu/ivs5030/plant.jpg</url>
   <title>publiclab.com</title>
   <link>https://sagarpreet-chadha.github.io/feed.rss</link>
   <description>Web development tutorials</description>
@@ -107,6 +107,21 @@ https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
 ]]>
 </description>
 <guid>https://publiclab.org/notes/show/154788529</guid>
+</item>
+   <item>
+<title> AGAIN TESTING !! </title>
+<author>kaun@gmail.com (kaun name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="5" type="image/jpeg" />
+<description>
+<![CDATA[
+  <img src="http://img02.mini.abroad.imgcdc.com/english/photos/fun/90/20170711/1017495_339353.jpg.680x425.jpg" alt="Smiley face">         
+]]>
+</description>
+<guid>https://publiclab.org/notes/show/15423788529</guid>
 </item>
 </channel>
 </rss>
