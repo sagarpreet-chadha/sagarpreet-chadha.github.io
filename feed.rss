@@ -4,7 +4,105 @@
 <description>
 Open source environmental science research at Public Lab
 </description>
-
+<link>https://sagarpreet-chadha.github.io/feed.rss</link>
+<atom:link href="https://sagarpreet-chadha.github.io/feed.rss" rel="self" type="application/rss+xml" />
+<item>
+<title>Kilimanjaro Citizen Science - KCS-1</title>
+<author>cutlan@gmail.com (shdbj jsjdk)</author>
+<pubDate>Tue, 09 Jan 2018 17:28:44 +0000</pubDate>
+<link>
+https://publiclab.org/notes/cutlan/01-09-2018/kilimanjaro-citizen-science-1
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<description>
+item1
+</description>
+<guid>https://publiclab.org/notes/show/15493</guid>
+</item>
+<item>
+<title>Built the entry level paperkit</title>
+<author>Swede2@gmail.com (dsjn sdbmbd)</author>
+<pubDate>Sun, 07 Jan 2018 16:22:16 +0000</pubDate>
+<link>
+https://publiclab.org/notes/Swede2/01-07-2018/built-the-entry-level-paperkit
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<description>
+item2
+</description>
+<guid>https://publiclab.org/notes/show/15472</guid>
+</item>
+<item>
+<title>Water Availability and Vulnerability</title>
+<author>gilbert@gmail.com (jdksfjs kjdskd)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<description>
+item3
+</description>
+<guid>https://publiclab.org/notes/show/15462</guid>
+</item>
+  <item>
+<title> Testing </title>
+<author>gilbert@gmail.com (test name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="78645" type="image/jpeg" />
+<description>
+item4
+</description>
+<guid>https://publiclab.org/notes/show/15459</guid>
+</item>
+  <item>
+<title> Testing </title>
+<author>gilbert@gmail.com (test name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="1" type="image/jpeg" />
+<description>
+item5
+</description>
+<guid>https://publiclab.org/notes/show/154529</guid>
+</item>
+   <item>
+<title> Testing </title>
+<author>gilbert@gmail.com (test name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="1" type="image/jpeg" />
+<description>
+<![CDATA[
+  Image inside RSS
+  <img src="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" alt="Smiley face">         
+]]>
+</description>
+<guid>https://publiclab.org/notes/show/1548529</guid>
+</item>
+  <item>
+<title> Testing Ho rhi hai </title>
+<author>kaun@gmail.com (kaun name)</author>
+<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
+<link>
+https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
+</link>
+<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="5" type="image/jpeg" />
+<description>
+<![CDATA[
+  <img src="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" alt="Smiley face">         
+]]>
+</description>
+<guid>https://publiclab.org/notes/show/154788529</guid>
+</item>
+   <item>
 <title> AGAIN TESTING !! </title>
 <author>kaun@gmail.com (kaun name)</author>
 <pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
@@ -135,7 +233,6 @@ https://publiclab.org/notes/amirberAgain/01-12-2018/python-and-opencv-to-analyze
 </description>
 <guid>https://publiclab.org/notes/show/12213</guid>
 </item>
-<item>
 <title>
 Python and openCV to analyze microscope slide images of airborne particles [TEST 8th]
 </title>
@@ -148,36 +245,6 @@ https://publiclab.org/notes/amirberAgain/01-12-2018/python-and-opencv-to-analyze
 <p><![CDATA[ <img src='https://publiclab.org/system/images/photos/000/023/180/medium/image.png' alt='' > ]]></p>
 </description>
 <guid>https://publiclab.org/notes/show/32165645</guid>
-</item>
-  <item>
-<title> AGAIN TESTING 123 check!! </title>
-<author>kaun@gmail.com (kaun name)</author>
-<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
-<link>
-https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
-</link>
-<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="5" type="image/jpeg" />
-<description>
-<![CDATA[
-  <img src="http://img02.mini.abroad.imgcdc.com/english/photos/fun/90/20170711/1017495_339353.jpg.680x425.jpg" alt="Smiley face">         
-]]>
-</description>
-<guid>https://publiclab.org/notes/show/1547723788529</guid>
-</item>
-<item>
-<title> AGAIN TESTING 123 123 123 check!! </title>
-<author>kaun@gmail.com (kaun name)</author>
-<pubDate>Fri, 05 Jan 2018 18:24:12 +0000</pubDate>
-<link>
-https://publiclab.org/notes/gilbert/01-05-2018/water-availability-vulnerability
-</link>
-<enclosure url="http://www.publiclab.org/system/images/photos/000/023/122/medium/PIC2.jpg" length="5" type="image/jpeg" />
-<description>
-<![CDATA[
-  <img src="http://img02.mini.abroad.imgcdc.com/english/photos/fun/90/20170711/1017495_339353.jpg.680x425.jpg" alt="Smiley face">         
-]]>
-</description>
-<guid>https://publiclab.org/notes/show/756</guid>
 </item>
 </channel>
 </rss>
