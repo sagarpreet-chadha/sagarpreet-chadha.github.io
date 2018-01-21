@@ -55,5 +55,29 @@
       {"from": 3, "to": 6},
       {"from": 2, "to": 7},
       {"from": 2, "to": 8}
-    ]
+    ],
+   "nodes": {
+      "borderWidth":0,
+      "size":42,
+      "color": {
+        "border": "#222",
+        "background": "#ecfed8"
+      },
+      "font": {
+        "color": "#111",
+        "face": "Walter Turncoat",
+        "size": 16,
+        "strokeWidth": 1,
+        "strokeColor": "#222"
+      }
+    },
+    "edges": {
+      "color": {
+        "color": "red",
+        "highlight": "#A22"
+      },
+      "width": 3,
+      "length": 275,
+      "hoverWidth": .05
+    }
   }
