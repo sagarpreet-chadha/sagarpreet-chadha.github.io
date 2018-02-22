@@ -21,13 +21,6 @@ a {
   text-decoration: none;
 }
 
-img {
- 
-}
-
-h3 {
- 
-}
 
 /**********************************
 HEADING
@@ -208,29 +201,6 @@ height: 200px;
 NAVIGATION
 ***********************************/
 
-nav {
-  text-align: center;
-  padding: 10px 0;
-  margin-top: -3%;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0 10px;
-  padding: 0;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  font-weight: 800;
-  padding: 15px 10px;
-}
-
-
-
 
 /**********************************
 COLORS
@@ -248,9 +218,7 @@ header {
 }
 
 /* nav background on mobile */
-nav {
-  background: #B5E4F6;
-}
+
 
 /* logo text */
 h1, h2 {
@@ -259,18 +227,11 @@ h1, h2 {
 
 /* links */
 a {
-  color: #6ab47b;
+  color: black ;
 }
 
 /* nav link */
-nav a, nav a:visited {
-  color: #fff;
-}
 
-/* selected nav link */
-nav a.selected, nav a:hover {
-  
-}
 
 
 /**********************************
@@ -313,14 +274,7 @@ MEDIA QUERIES
   HEADER
   ***********************************/
 
-  nav {
-    background: none;
-    float: right;
-    font-size: 1.125em;
-    margin-right: 5%;
-    text-align: right;
-    width: 45%;
-  }
+
   
   #logo {
     float: left;
