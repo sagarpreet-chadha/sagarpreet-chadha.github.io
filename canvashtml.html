@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Personal Details</title>
+</head>
+
+<style type="text/css">
+	<style>
+		body {
+		  margin: 0 ;
+		  display: flex;
+		  justify-content: center;
+		}
+
+		/* DEMO-SPECIFIC STYLES */
+		.typewriter h1 {
+		  color: white ;
+		  font-family: monospace;
+		  overflow: hidden; /* Ensures the content is not revealed until the animation */
+		  border-right: .15em solid orange; /* The typwriter cursor */
+		  white-space: nowrap ; /* Keeps the content on a single line */
+		  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+		  letter-spacing: .15em; /* Adjust as needed */
+		  animation: 
+		    typing 3.5s steps(30, end),
+		    blink-caret .5s step-end infinite;
+		}
+		/* The typing effect */
+		@keyframes typing {
+		  from { width: 0 }
+		  to { width: 100% }
+		}
+
+		/* The typewriter cursor effect */
+		@keyframes blink-caret {
+		  from, to { border-color: transparent }
+		  50% { border-color: orange }
+		}
+
+		#hello{
+			position: absolute; 
+			margin-top: 10% ;
+			margin-left: 29% ;
+		}
+
+		#about{
+				position: absolute; 
+			margin-top: 17% ;
+			margin-left: 30% ;
+		}
+
+	</style>
+</style>
+<body>
+
+	 <div id = "hello" class="typewriter" >
+  <h1>Hello! My Name is <span style="color: cyan">Sagarpreet Chadha</span> :) </h1>
+</div>
+<div id="about">
+	<p style="color: cyan;
+font-size: larger;
+margin-left: 15%;"><span style="color: white;
+font-size: x-large;">COLLEGE : </span> Delhi Technological University (CGPA : 8.56) <br>
+				<span style="color: #cdd816;
+margin-left: 38%;">- Information Technology (CSE)</span>
+				</p>
+	<p style="color: cyan;
+font-size: larger;
+margin-left: 15%;"><span  style="color: white;
+font-size: x-large;">SCHOOL :</span> Lancers Convent School , Delhi (95.6%) 
+<br><span style="color: #cdd816;
+margin-left: 38%;">- (2000 - 2015)</span></p>
+
+<p style="color: cyan;
+font-size: larger;
+margin-left: 15%;"><span  style="color: white;
+font-size: x-large;">FATHERS NAME :</span> Mr. Gurvinder Chadha
+<br><span style="color: #cdd816;
+margin-left: 38%;">- Chief Manager (SBI)</span></p>
+
+<p style="color: cyan;
+font-size: larger;
+margin-left: 15%;"><span  style="color: white;
+font-size: x-large;">INTERNSHIPS :</span> Coding Ninjas (Teaching Assistant) 
+<br><span style="color: #cdd816;
+margin-left: 38%;">- Ruby on Rails Instructor</span></p>
+
+<p style="color: cyan;
+font-size: larger;
+margin-left: 15%;"><span  style="color: white;
+font-size: x-large;">EMAIL :</span> chadha.sagarpreet97@gmail.com 
+<br><span style="color: #cdd816;
+margin-left: 38%;">- +91-(8377999752)</span></p>
+
+
+</div>
+<canvas></canvas>
+
+<script type="text/javascript" src="canvas.js"></script>
+</body>
+</html>

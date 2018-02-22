@@ -1,0 +1,75 @@
+body {
+  overflow: hidden;
+}
+
+// Twitter
+.twitter {
+  &:hover {
+    a {
+      transform: rotate(-45deg) scale(1.05);
+    }
+    
+    i {
+      color: lighten(#00ACED, 10%);
+    }
+  }
+  
+  a {
+    bottom: -40px;
+    right: -75px;
+    transform: rotate(-45deg);
+  }
+  
+  i {
+    bottom: 7px;
+    right: 7px;
+    color: #00ACED;
+  }
+}
+
+.social-icon {
+  a {
+    position: absolute;
+    background: white;
+    color: white;
+    box-shadow: -1px -1px 20px 0px rgba(0,0,0,0.30);
+    display: inline-block;
+    width: 150px;
+    height: 80px;  
+    transform-origin: 50% 50%;
+    transition: .15s ease-out;
+  }
+  
+  i {
+    position: absolute;
+    pointer-events: none;
+    z-index: 1000;
+    transition: .15s ease-out;
+  }
+}
+
+// YouTube 
+
+.youtube {
+  &:hover {
+    a {
+      transform: rotate(45deg) scale(1.05);
+    }
+    
+    i {
+      color: lighten(#E62117, 10%);
+    }
+  }
+  
+  a {
+    bottom: -40px;
+    left: -75px;
+    transform: rotate(45deg);
+  }
+  
+  i {
+    bottom: 7px;
+    left: 7px;
+    color: #E62117;
+  }
+}
