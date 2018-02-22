@@ -2,10 +2,6 @@
 GENERAL
 ***********************************/
 #layout{
-  
-  max-width: 940px;
-  margin: auto;
-  padding: 0 15%;
   display: block;
   position: relative;
   
@@ -13,13 +9,11 @@ GENERAL
 
 body {
   font-family: 'Lato', sans-serif;
-  height: 100vh ; 
+ 
 }
 
 #wrapper {
-  max-width: 940px;
-  margin: 0 auto;
-  padding: 0 5%;
+ 
 
 }
 
@@ -28,11 +22,11 @@ a {
 }
 
 img {
-  max-width: 100%;
+ 
 }
 
 h3 {
-  margin: 0 0 1em 0;
+ 
 }
 
 /**********************************
@@ -40,10 +34,7 @@ HEADING
 ***********************************/
 
 header {
-  float: left;
-  margin: 0 0 30px 0;
-  padding: 5px 0 0 0;
-  width: 100%;
+  
 }
 
 #logo {
@@ -53,7 +44,7 @@ header {
 
 h1 {
   font-family: 'Lato', sans-serif;
-  margin: 15px 0;
+  
   font-size: 1.75em;
   font-weight: normal;
   line-height: 0.8em;
